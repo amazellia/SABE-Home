@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>School of Architecture and Built Environment</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <main class="page">
+        <header class="header">
+            <h1 class="title">School of Architecture and Built Environment</h1>
+        </header>
+
+        <nav class="actions" aria-label="Primary">
+            <a class="btn" href="https://www.newcastle.edu.au/school/sabe">Our School</a>
+            <a class="btn" href="https://www.newcastle.edu.au/school/sabe/study-with-us">Programs</a>
+            <a class="btn" href="https://www.newcastle.edu.au/school/sabe/research">Research</a>
+            <a class="btn" href="https://www.newcastle.edu.au/school/sabe/our-people">Our People</a>
+            <a class="btn" href="https://commons.archbe.org/">Architecture Digital Archive</a>
+            <a class="btn" href="https://pxl.archbe.org/">PixelSpace Lab</a>
+        </nav>
+    </main>
+
+    <footer class="footer">
+        <small>© <span id="year"></span> School of Architecture and Built Environment | University of Newcastle</small>
+    </footer>
+
+    <script>
+    // Set current year in footer
+    document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+</body>
+  
+</html>
+
+
